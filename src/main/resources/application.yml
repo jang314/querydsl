@@ -13,6 +13,8 @@ spring:
         # SQL이 System.out 으로 출력됨
 #      show_sql: true
       format_sql: true
+      use_sql_comment: true
+
 
 # SQL이 logger로 출력됨
 logging.level:
