@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: local
+    active: test
   datasource:
     url: jdbc:h2:tcp://localhost/~/querydsl
     username: sa
@@ -12,8 +12,8 @@ spring:
       ddl-auto: create
     properties:
       hibernate:
-        # SQL이 System.out 으로 출력됨
-#      show_sql: true
+      # SQL이 System.out 으로 출력됨
+      #      show_sql: true
       format_sql: true
       use_sql_comment: true
 
